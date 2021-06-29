@@ -14,6 +14,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ Service
+    - 주업무 코드 기술 Layer. Mapper호출, API호출, Biz로직 처리 등 기능 구현
+    - session, request, response등 Web에 종속된 객체나 클리스 사용x
+ * */
 @Service
 public class BoardService {
 
