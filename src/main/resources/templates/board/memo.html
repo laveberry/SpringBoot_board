@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <title>메모</title>
 </head>
+<script !src="">
+<!--
+    1) history.pushState(state, title, url);
+        : 새로운 세션 기록항목 생성&활성화, 페이지를 reload하지않고 url만 변경
+        -state : 새로운 세션 기록 항목에 연결할 상태객체/ 넘겨줄 데이터
+            var state = { 'page_id': 1, 'user_id': 5 };
+        -title : 변경할 브라우저 제목 (변경을 원하지 않으면 null)
+        -url : 변경할 브라우저 URL
+-->
+</script>
 <body>
 <!--
 equals : 두 객체의 '내용' 같은지, 동등성(equality)
@@ -11,6 +21,9 @@ hashCode : 두 객체가 같은 '객체'인지, 동일성(identity)
 
 @EqualsAndHashCode(callSuper=true)
  - callSuper : 부모클래스 필드까지 감안할지 여부 확인
+
+
+
 -->
 </body>
 </html>
