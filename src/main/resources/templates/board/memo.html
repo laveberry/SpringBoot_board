@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>메모</title>
 </head>
-<script !src="">
+<script>
 <!--
     1) history.pushState(state, title, url);
         : 새로운 세션 기록항목 생성&활성화, 페이지를 reload하지않고 url만 변경
@@ -12,6 +12,10 @@
             var state = { 'page_id': 1, 'user_id': 5 };
         -title : 변경할 브라우저 제목 (변경을 원하지 않으면 null)
         -url : 변경할 브라우저 URL
+
+    2) trim() : 좌우 공백제거 -> $.trim(변경값);
+    this.replace(/^s+, ""); -> 특수문자 사용불가 설정
+
 -->
 </script>
 <body>
@@ -22,6 +26,9 @@ hashCode : 두 객체가 같은 '객체'인지, 동일성(identity)
 @EqualsAndHashCode(callSuper=true)
  - callSuper : 부모클래스 필드까지 감안할지 여부 확인
 
+
+getinstance() 와 new 연산자 : 인스턴스 생성
+- getinstance() : 주소값 같음 / new 연산자 : 주소값 다름
 
 
 -->
